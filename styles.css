@@ -1,0 +1,131 @@
+/* @import url("https://rsms.me/inter/inter.css"); */
+
+@font-face {
+  font-family: "v";
+  src: url("./v.otf") format("truetype");
+}
+
+/* document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  z-index: 1;
+}
+
+/* new  */
+
+body {
+  background-color: #758094;
+  color: #f2f1ef;
+}
+
+.display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+  width: 20%;
+}
+
+/* end new */
+
+h1 {
+  font-family: "v", sans-serif;
+}
+
+img {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  width: 50%;
+  animation: fader 0.4s;
+}
+
+section.collage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* end document */
+
+/* text */
+
+h1 {
+  font-weight: 500;
+  font-size: 56px !important;
+}
+
+section h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 500;
+}
+
+/* end text */
+
+/* links / frames / media */
+
+a {
+  position: relative;
+  z-index: 1;
+  font-size: 24px !important;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #fffacd;
+  font-family: "v", sans-serif;
+}
+
+a:hover {
+  color: green;
+}
+
+@keyframes fader {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* end links / frames / media */
+
+.AboutSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 500;
+}
+
+.AboutSection li {
+  list-style-type: none;
+  text-align: left;
+  font-size: 32px;
+  line-height: 1.4;
+  font-family: "v", sans-serif;
+  color: #fffacd;
+}
